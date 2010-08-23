@@ -1,4 +1,4 @@
-/* ScriptInterpTest.h
+/* ScriptInterpTCLTest.h
  *
  */
 #ifndef _SCRIPTINTERPTEST_H
@@ -11,9 +11,9 @@
 #include "ScriptInterpTCL.h"
 using namespace BDLIB_NS;
 
-class ScriptInterpTest : public CPPUNIT_NS :: TestFixture
+class ScriptInterpTCLTest : public CPPUNIT_NS :: TestFixture
 {
-    CPPUNIT_TEST_SUITE (ScriptInterpTest);
+    CPPUNIT_TEST_SUITE (ScriptInterpTCLTest);
     CPPUNIT_TEST (evalTest);
 //    CPPUNIT_TEST (operatorEqualsTest);
     CPPUNIT_TEST (linkVarTest);
